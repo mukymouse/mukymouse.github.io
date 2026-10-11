@@ -205,3 +205,22 @@ figure { margin: 0; }
 @media (max-width: 900px) { .how { grid-template-columns: 1fr; } }
 .how b { display: block; color: var(--una); font-size: 17px; margin-bottom: 4px; }
 .how p { font-size: 15.5px; color: var(--ink-2); }
+
+/* ---------- rate review request form (inside the Una contact panel) ---------- */
+.rq { display: grid; gap: 12px; width: 100%; }
+.rq .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 520px) { .rq .two { grid-template-columns: 1fr; } }
+.rq label { display: grid; gap: 5px; font-size: 14px; color: #D6E2DF; }
+.rq input, .rq select, .rq textarea { font: 400 16px var(--font); color: var(--ink); background: var(--paper); border: 1px solid transparent; border-radius: 12px; padding: 10px 12px; width: 100%; }
+.rq textarea { min-height: 84px; resize: vertical; }
+.rq input:focus, .rq select:focus, .rq textarea:focus { outline: 2px solid var(--copper-on-una); outline-offset: 1px; }
+.rq .small { font-size: 13.5px; color: #C4D6D1; }
+.rq .small a { color: var(--paper); }
+.contact.withform { align-items: start; }
+.contact .after { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+footer nav { display: flex; gap: 18px; flex-wrap: wrap; }
+footer nav a { color: var(--ink-2); text-decoration: none; } footer nav a:hover { color: var(--una); }
+.legal { max-width: 70ch; display: grid; gap: 14px; }
+.legal h2 { font-size: 24px; margin-top: 18px; }
+.legal p, .legal li { color: var(--ink); }
+.nf { min-height: 60vh; display: grid; align-content: center; gap: 22px; justify-items: start; }
